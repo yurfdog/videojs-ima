@@ -146,6 +146,7 @@
       }
       var adsRequest = new google.ima.AdsRequest();
       adsRequest.adTagUrl = settings.adTagUrl;
+      adsRequest.adsResponse = settings.adsResponse;
       if (settings.forceNonLinearFullSlot) {
         adsRequest.forceNonLinearFullSlot = true;
       }
